@@ -9,7 +9,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.30
   File::ShareDir::Install: 0.03
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300010, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Dist::Zilla version 4.300012, CPAN::Meta::Converter version 2.120900'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/creaktive/Dist-Zilla-MintingProfile-SYP/issues
   homepage: https://github.com/creaktive/Dist-Zilla-MintingProfile-SYP
   repository: git://github.com/creaktive/Dist-Zilla-MintingProfile-SYP.git
-version: 0.001
+version: 0.002

@@ -12,6 +12,7 @@ profiles/default/plugins.ini
 profiles/default/profile.ini
 profiles/default/skel/Changes
 profiles/default/skel/MANIFEST.SKIP
+profiles/default/skel/perlcritic.rc
 profiles/default/skel/t/00-load.t
 profiles/default/skel/weaver.ini
 t/00-load.t

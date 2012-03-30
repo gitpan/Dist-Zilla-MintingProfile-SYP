@@ -27,6 +27,14 @@ use Any::Moose;
 
 # VERSION
 
+=for Pod::Coverage
+BUILD
+=cut
+
+sub BUILD {
+    my ($self) = @_;
+}
+
 =head1 SEE ALSO
 
 =for :list
