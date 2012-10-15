@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::MintingProfile::SYP - SYP's Dist::Zilla minting profile
 
 VERSION
-    version 0.002
+    version 0.003
 
 AUTHOR
     Stanislaw Pusep <stas@sysd.org>

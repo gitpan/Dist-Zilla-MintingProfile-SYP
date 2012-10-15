@@ -3,6 +3,7 @@ package {{$name}};
 
 =head1 SYNOPSIS
 
+    use {{$name}};
     ...
 
 =head1 DESCRIPTION
@@ -11,11 +12,11 @@ package {{$name}};
 
 =cut
 
-#use strict;
-#use utf8;
-#use warnings qw(all);
+use strict;
+use utf8;
+use warnings qw(all);
 
-use common::sense;
+#use common::sense;
 
 #use base q(Exporter);
 #
@@ -24,8 +25,17 @@ use common::sense;
 #our @EXPORT         = qw();
 
 use Any::Moose;
+#use Any::Moose qw(::Util::TypeConstraints);
 
 # VERSION
+
+=attr attribute
+
+...
+
+=cut
+
+has attribute   => (is => 'ro', isa => 'Int', default => 0);
 
 =for Pod::Coverage
 BUILD
@@ -35,10 +45,22 @@ sub BUILD {
     my ($self) = @_;
 }
 
+=method method($param)
+
+...
+
+=cut
+
+sub method {
+    my ($self, $param) = @_;
+}
+
 =head1 SEE ALSO
 
 =for :list
 * L<Any::Moose>
+* L<Moose>
+* L<Mouse>
 
 =cut
 

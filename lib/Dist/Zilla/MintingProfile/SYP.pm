@@ -8,7 +8,7 @@ use warnings qw(all);
 use Moose;
 with q(Dist::Zilla::Role::MintingProfile::ShareDir);
 
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 no Moose;
 __PACKAGE__->meta->make_immutable;
@@ -16,6 +16,7 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 __END__
+
 =pod
 
 =encoding utf8
@@ -26,7 +27,7 @@ Dist::Zilla::MintingProfile::SYP - SYP's Dist::Zilla minting profile
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
@@ -40,4 +41,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -4,12 +4,11 @@ author:
   - 'Stanislaw Pusep <stas@sysd.org>'
 build_requires:
   Test::More: 0
-  common::sense: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
   File::ShareDir::Install: 0.03
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300012, CPAN::Meta::Converter version 2.120900'
+generated_by: 'Dist::Zilla version 4.300026, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,4 +24,4 @@ resources:
   bugtracker: https://github.com/creaktive/Dist-Zilla-MintingProfile-SYP/issues
   homepage: https://github.com/creaktive/Dist-Zilla-MintingProfile-SYP
   repository: git://github.com/creaktive/Dist-Zilla-MintingProfile-SYP.git
-version: 0.002
+version: 0.003

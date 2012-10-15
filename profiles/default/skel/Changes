@@ -1,3 +1,0 @@
-Changelog for {{$dist->name =~ s/-/::/gr}} (full version at https://github.com/creaktive/{{$dist->name}})
-
-{{ '{{$NEXT}}' }}
