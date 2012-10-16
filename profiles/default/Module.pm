@@ -3,6 +3,8 @@ package {{$name}};
 
 =head1 SYNOPSIS
 
+    #!/usr/bin/env perl;
+    use common::sense;
     use {{$name}};
     ...
 
@@ -29,11 +31,11 @@ use Any::Moose;
 
 # VERSION
 
-=attr attribute
-
-...
-
-=cut
+#=attr attribute
+#
+#...
+#
+#=cut
 
 has attribute   => (is => 'ro', isa => 'Int', default => 0);
 
@@ -45,11 +47,11 @@ sub BUILD {
     my ($self) = @_;
 }
 
-=method method($param)
-
-...
-
-=cut
+#=method method($param)
+#
+#...
+#
+#=cut
 
 sub method {
     my ($self, $param) = @_;
