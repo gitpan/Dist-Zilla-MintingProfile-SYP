@@ -1,6 +1,13 @@
 Changelog for Dist-Zilla-MintingProfile-SYP
 
-0.004 2012-10-16T13:27:15
+0.005 2012-10-17T15:14:08
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - version bump
+
+ - more authordeps
+
+
+v0.004 2012-10-16T13:26:27
  [Stanislaw Pusep <creaktive@gmail.com>]
  - Kwalitee-related fix
 
