@@ -8,7 +8,7 @@ use warnings qw(all);
 use Moose;
 with q(Dist::Zilla::Role::MintingProfile::ShareDir);
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 no Moose;
 __PACKAGE__->meta->make_immutable;
@@ -27,7 +27,7 @@ Dist::Zilla::MintingProfile::SYP - SYP's Dist::Zilla minting profile
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 AUTHOR
 

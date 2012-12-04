@@ -1,6 +1,13 @@
 Changelog for Dist-Zilla-MintingProfile-SYP
 
-0.005 2012-10-17T15:14:08
+0.006 2012-12-04T15:06:54
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - bumped version
+
+ - increased perlcritic severity
+
+
+v0.005 2012-10-17T15:13:46
  [Stanislaw Pusep <creaktive@gmail.com>]
  - version bump
 
