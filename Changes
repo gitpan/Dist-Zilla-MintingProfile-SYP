@@ -1,44 +1,18 @@
 Changelog for Dist-Zilla-MintingProfile-SYP
 
-0.006 2012-12-04T15:06:54
- [Stanislaw Pusep <creaktive@gmail.com>]
- - bumped version
+v0.007 2013-10-16T08:15:58
+ - Minor consistency fixes [Stanislaw Pusep]
+ - Version bump [Stanislaw Pusep]
+ - "Mudam-se os tempos, mudam-se as vontades..." [Stanislaw Pusep]
 
- - increased perlcritic severity
-
+v0.006 2012-12-04T15:06:39
+ - bumped version [Stanislaw Pusep]
+ - increased perlcritic severity [Stanislaw Pusep]
 
 v0.005 2012-10-17T15:13:46
- [Stanislaw Pusep <creaktive@gmail.com>]
- - version bump
-
- - more authordeps
-
+ - version bump [Stanislaw Pusep]
+ - more authordeps [Stanislaw Pusep]
 
 v0.004 2012-10-16T13:26:27
- [Stanislaw Pusep <creaktive@gmail.com>]
- - Kwalitee-related fix
-
-
-v0.003 2012-10-15T15:20:06
- [Stanislaw Pusep <creaktive@gmail.com>]
- - routine update
-
-
- [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
- - Changelog
-
-
-v0.002 2012-03-30T15:23:12
- [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
- - ++perlcritic.rc
-
- - Changelog
-
-
-v0.001 2012-03-29T19:55:19
- [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
- - fix
-
- - INIT
-
+ - Kwalitee-related fix [Stanislaw Pusep]
 

@@ -5,6 +5,7 @@ MANIFEST.SKIP
 META.yml
 Makefile.PL
 README
+SIGNATURE
 dist.ini
 lib/Dist/Zilla/MintingProfile/SYP.pm
 profiles/default/Module.pm

@@ -18,26 +18,53 @@ use strict;
 use utf8;
 use warnings qw(all);
 
-#use common::sense;
-
-#use base q(Exporter);
+# use common::sense;
 #
-#our %EXPORT_TAGS    = (all => [qw()]);
-#our @EXPORT_OK      = (@$EXPORT_TAGS{all});
-#our @EXPORT         = qw();
+# use base 'Exporter';
+#
+# our %EXPORT_TAGS    = (all => [qw[]]);
+# our @EXPORT_OK      = (@$EXPORT_TAGS{all});
+# our @EXPORT         = qw();
 
-use Any::Moose;
-#use Any::Moose qw(::Util::TypeConstraints);
+# use Carp qw(carp confess);
+
+use Moose;
+# use Moo;
+# use MooX::Types::MooseLike::Base qw(
+#     AnyOf
+#     ArrayRef
+#     Bool
+#     HashRef
+#     InstanceOf
+#     Int
+#     Num
+#     Object
+#     Str
+#     is_Int
+# );
+
+# with 'Some::Class';
+# extends 'Other::Class';
+
+# no if ($] >= 5.017010), warnings => 'experimental';
 
 # VERSION
 
-#=attr attribute
+# =attr attribute
 #
-#...
+# ...
 #
-#=cut
+# =cut
 
-has attribute   => (is => 'ro', isa => 'Int', default => 0);
+has attribute   => (is => 'ro', isa => 'Int', default => sub { 0 });
+
+# arount parent_method => sub {
+#     my $name = shift;
+#     my $orig = shift;
+#     my $self = shift;
+#
+#     $orig->($self => @_);
+# };
 
 =for Pod::Coverage
 BUILD
@@ -47,11 +74,11 @@ sub BUILD {
     my ($self) = @_;
 }
 
-#=method method($param)
+# =method method($param)
 #
-#...
+# ...
 #
-#=cut
+# =cut
 
 sub method {
     my ($self, $param) = @_;
@@ -60,13 +87,13 @@ sub method {
 =head1 SEE ALSO
 
 =for :list
-* L<Any::Moose>
 * L<Moose>
-* L<Mouse>
+* L<Moo>
+* L<MooX::Types::MooseLike::Base>
 
 =cut
 
-no Any::Moose;
+no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;

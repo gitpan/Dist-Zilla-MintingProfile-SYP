@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 dda97c5fbede4bf4760031125b34cd05406357c2 Changes
+SHA1 904796347906950898dceeab09c0437aed1df0cb LICENSE
+SHA1 43987e37f9a1583dae850a05cfdf82f6be0ff454 MANIFEST
+SHA1 bb9e9ec8bb6baada57dd0ab0e8cc8df8cc4b3b16 MANIFEST.SKIP
+SHA1 1738c08f28d2ca4dca5d54ff8d8bd152da415a79 META.yml
+SHA1 f24d6f0d0ac9f7b43f975a995bc4e97d7c21c121 Makefile.PL
+SHA1 3f27ce59a9433bee680baa739daddc059699321b README
+SHA1 8e6ca30ff7e0b9d9f7a8a841df695460fb2c46e1 dist.ini
+SHA1 1997c2462c49068d1e3199eac32e58de9692f231 lib/Dist/Zilla/MintingProfile/SYP.pm
+SHA1 b2133cd4f9451af930c47fa5a5003e9ff78bc297 profiles/default/Module.pm
+SHA1 d97ae6f3c9053f3a5dc707e1ca79e2aef25f21d1 profiles/default/plugins.ini
+SHA1 c12b338667308c30169dca1764e16203d6c55b9a profiles/default/profile.ini
+SHA1 c957939a48c276ecba256a69ea4c0bea9014a9cc profiles/default/skel/MANIFEST.SKIP
+SHA1 9b0bceb3fb8f96be87fd9f7ac00f2bd4f33e5fde profiles/default/skel/gitignore
+SHA1 41b7251366b2eeb10817591a705c1b7150308404 profiles/default/skel/perlcritic.rc
+SHA1 65032386937f9799ad5724bf587a7a159a7a2be4 profiles/default/skel/t/00-load.t
+SHA1 88f6d0940c2346383aceba628560c4798e2e9908 profiles/default/skel/weaver.ini
+SHA1 96a2e83c3c3fd4c8b08dc8dc9d302195a60c6c24 t/00-load.t
+SHA1 88f6d0940c2346383aceba628560c4798e2e9908 weaver.ini
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (Darwin)
+
+iQEcBAEBAgAGBQJSXks+AAoJEDlxU7ZVUpmiQJAH/31BRb2tohQUz/QgC7WbstpW
+GN1eLQnfBT0fT29eE+fWyJlVwGTzl+rD715SHWKFm/yz6vKpLLPnWlOlZLPpVjct
+rOUTtNVbxD5KBcrS/tU/1gU313saSuJ9RYocjoAnuOwfk5JaxajpvFCDfD/C0VhE
+rYY9vzeJyEv6/1sqV5kdfzCSxNSFJL+aDoJDELiQY3frNgAqT1dKRflUc69Ev/tC
+BKlf+CG/9P5fPc+Inz0fln8e+Js9zKUAW+ljw2FTXHQzjDsNd5Hw4u6FYHcXB7WN
+yEIAzSTUVcuifLkErsIYACpCaI/Qb3PNHpr2lGs43XMF6oBio+edOLXF2v94Bjg=
+=2PEv
+-----END PGP SIGNATURE-----
