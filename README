@@ -1,13 +1,17 @@
 NAME
+
     Dist::Zilla::MintingProfile::SYP - SYP's Dist::Zilla minting profile
 
 VERSION
-    version 0.007
+
+    version 0.008
 
 AUTHOR
+
     Stanislaw Pusep <stas@sysd.org>
 
 COPYRIGHT AND LICENSE
+
     This software is copyright (c) 2012 by Stanislaw Pusep.
 
     This is free software; you can redistribute it and/or modify it under

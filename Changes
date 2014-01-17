@@ -1,18 +1,14 @@
 Changelog for Dist-Zilla-MintingProfile-SYP
 
-v0.007 2013-10-16T08:15:58
+v0.008 2014-01-17T10:55:02
+ - Regenerated POD [Stanislaw Pusep]
+ - Merge pull request #1 from sergeyromanov/master
+   
+   drop PWP::Encoding dependency [Stanislaw Pusep]
+ - drop PWP::Encoding dependency [Sergey Romanov]
+
+v0.007 2013-10-16T08:15:46
  - Minor consistency fixes [Stanislaw Pusep]
  - Version bump [Stanislaw Pusep]
  - "Mudam-se os tempos, mudam-se as vontades..." [Stanislaw Pusep]
-
-v0.006 2012-12-04T15:06:39
- - bumped version [Stanislaw Pusep]
- - increased perlcritic severity [Stanislaw Pusep]
-
-v0.005 2012-10-17T15:13:46
- - version bump [Stanislaw Pusep]
- - more authordeps [Stanislaw Pusep]
-
-v0.004 2012-10-16T13:26:27
- - Kwalitee-related fix [Stanislaw Pusep]
 

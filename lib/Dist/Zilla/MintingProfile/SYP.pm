@@ -8,7 +8,7 @@ use warnings qw(all);
 use Moose;
 with q(Dist::Zilla::Role::MintingProfile::ShareDir);
 
-our $VERSION = '0.007'; # VERSION
+our $VERSION = '0.008'; # VERSION
 
 no Moose;
 __PACKAGE__->meta->make_immutable;
@@ -19,7 +19,7 @@ __END__
 
 =pod
 
-=encoding utf8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -27,7 +27,7 @@ Dist::Zilla::MintingProfile::SYP - SYP's Dist::Zilla minting profile
 
 =head1 VERSION
 
-version 0.007
+version 0.008
 
 =head1 AUTHOR
 
